@@ -1,0 +1,60 @@
+.prediction-containe {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+  }
+  
+  .prediction-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .entry-tickets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-number {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ticket-number.active {
+    background-color: purple;
+    color: white;
+  }
+  
+  .win-amount {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .total-tickets {
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: darkpurple;
+  }
+  

@@ -1,0 +1,187 @@
+.MainContainer {
+  margin-top: 125px;
+  width: 350px;
+  height: 780px;
+  background-color: #fdfdfd;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.MainContainer2 {
+  width: 500px;
+  background-color: #fdfdfd;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.GameHeader {
+  color: black;
+  padding: 5px;
+  font-size: 14px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.playerStatistics {
+  background-color: white;
+  padding: 0px;
+  color: black;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 10px;
+  border-bottom-color: #cea9ff;
+}
+.playerpartone {
+  margin-top: -4px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.playerpartone p {
+  margin-top: 20px;
+  color: white;
+}
+.playerparttwo {
+  margin-top: -20px;
+  margin-left: 17px;
+  color: white;
+}
+.playerparttwo span {
+  font-weight: bold;
+}
+.playerparttwo p {
+  font-size: 15px;
+}
+.playerparttwo h4 {
+  font-size: 14px;
+}
+.firstcontainer {
+  background-color: #483d8b;
+  padding: 3px;
+  margin: 2px;
+}
+.playpartner1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin: 15px;
+  margin-top: -10px;
+  box-sizing: border-box;
+}
+.playpartner2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 14px;
+  flex-wrap: wrap;
+  margin: 15px;
+  margin-top: -40px;
+}
+.prediction {
+  margin-left: 14px;
+}
+.butt {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.butt button {
+  padding: 5px 25px 5px 25px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.player-count {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.prediction-bar {
+  display: flex;
+  width: 90%;
+  margin-left: 10px;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: -15px;
+}
+
+.predicted-under {
+  background-color: #f4759b;
+  flex: 232; /* this value corresponds to the number of under predictions */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+}
+
+.predicted-over {
+  background-color: skyblue;
+  flex: 123; /* this value corresponds to the number of over predictions */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+}
+
+.view-chart {
+  margin-top: 15px;
+  background-color: #eee;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-chart:hover {
+  background-color: #ddd;
+}
+.profile_chart {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  box-sizing: border-box;
+  margin-top: -10px;
+}
+.footer {
+  color: #c1c1c1;
+  display: flex;
+  justify-content: space-between;
+  margin: 17px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.prediction-container {
+  margin-top: 15px;
+  background-color: #f0e9ff;
+}
+.win {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.win div {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+.win span {
+  color: skyblue;
+}
+.line {
+  margin-left: 120px;
+  font-weight: bold;
+  color: gray;
+}
+.Main {
+  display: flex;
+  justify-content: space-around;
+}

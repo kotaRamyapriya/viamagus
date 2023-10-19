@@ -1,0 +1,91 @@
+.profile-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0e9ff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .profile-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .profile-info h2 {
+    margin: 10px 0;
+  }
+  
+  .logout-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .logout-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    flex: 1;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 3px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  
+  .badges {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .badge {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .bag {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+  }
+  .bag:hover {
+    color: violet;
+    text-decoration: violet;
+  }
+  h4 {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 65px;
+  }
+  
